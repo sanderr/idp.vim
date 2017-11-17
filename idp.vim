@@ -23,7 +23,7 @@ syn match idp_symbol '?'
 syn match idp_symbol "=>"
 syn match idp_symbol "<=>"
 syn match idp_symbol "<-"
-syn keyword idp_symbol isa
+syn keyword idp_symbol isa constructed from
 syn keyword idp_key Given Declare Satisfying Find Data Minimize Partial nextgroup=idp_discl skipwhite
 syn keyword idp_small structure theory vocabulary procedure type declare partial domain
 
