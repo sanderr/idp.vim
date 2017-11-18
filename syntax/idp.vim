@@ -47,7 +47,8 @@ syn keyword idp_aggregate sum
 " numbers & literals
 " only simpel numbers as far as I know of taken from prolog 
 syn match idp_number "\<[0123456789]*\>'\@!"
-syn region idp_string start="\"" end="\""
+syn region idp_string start="\"" skip="\\." end="\""
+syn match idp_include_string "<[^ ]*>"
 
 " ------------------------
 " higlighting
@@ -67,3 +68,4 @@ hi def link idp_function Function
 hi def link idp_aggregate Function
 hi def link idp_number Constant
 hi def link idp_string Constant
+hi def link idp_include_string Constant
