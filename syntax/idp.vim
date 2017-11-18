@@ -20,18 +20,20 @@ syn match idp_discl ':'
 " keywords
 syn match idp_symbol '!'
 syn match idp_symbol '?'
-syn match idp_symbol "=>"
-syn match idp_symbol "<=>"
-syn match idp_symbol "<-"
-syn match idp_symbol "->"
-syn match idp_symbol "&"
-syn match idp_symbol "|"
+syn match idp_symbol '&'
+syn match idp_symbol '|'
 syn match idp_symbol "<"
 syn match idp_symbol ">"
+syn match idp_symbol "&"
+syn match idp_symbol "|"
 syn match idp_symbol "\~"
 syn match idp_symbol "\."
 syn match idp_symbol "="
 syn match idp_symbol ":"
+syn match idp_symbol "=>"
+syn match idp_symbol "<=>"
+syn match idp_symbol "<-"
+syn match idp_symbol "->"
 syn keyword idp_symbol isa constructed from
 " syn keyword idp_key Given Declare Satisfying Find Data Minimize Partial nextgroup=idp_discl skipwhite
 syn keyword idp_key theory vocabulary nextgroup=idp_discl skipwhite
@@ -62,6 +64,7 @@ hi def link idp_key  PreProc
 hi def link idp_small Type
 hi def link idp_type_declaration Type
 hi def link idp_symbol Statement
+hi def link idp_discl Statement
 hi def link idp_builtin Identifier
 hi def link idp_function Function
 hi def link idp_aggregate Function
