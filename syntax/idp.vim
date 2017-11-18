@@ -24,12 +24,9 @@ syn match idp_symbol '&'
 syn match idp_symbol '|'
 syn match idp_symbol "<"
 syn match idp_symbol ">"
-syn match idp_symbol "&"
-syn match idp_symbol "|"
 syn match idp_symbol "\~"
 syn match idp_symbol "\."
 syn match idp_symbol "="
-syn match idp_symbol ":"
 syn match idp_symbol "=>"
 syn match idp_symbol "<=>"
 syn match idp_symbol "<-"
