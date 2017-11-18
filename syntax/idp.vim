@@ -11,7 +11,7 @@ endif
 
 " comments
 syn match idp_todo "[tT][oO][dD][oO]" contained
-syn match idp_linecomment "//.*$"
+syn match idp_linecomment "//.*$" contains=idp_todo
 syn region idp_comment start="/\*" end="\*/" contains=idp_todo
 
 " matches
