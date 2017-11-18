@@ -33,7 +33,7 @@ syn match idp_symbol "<-"
 syn match idp_symbol "->"
 syn keyword idp_symbol isa constructed from
 " syn keyword idp_key Given Declare Satisfying Find Data Minimize Partial nextgroup=idp_discl skipwhite
-syn keyword idp_key theory vocabulary nextgroup=idp_discl skipwhite
+syn keyword idp_key theory vocabulary query nextgroup=idp_discl skipwhite
 syn keyword idp_key structure procedure 
 syn keyword idp_small type declare partial domain
 syn region idp_type_declaration start="\[" end="\]"
