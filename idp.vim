@@ -20,6 +20,8 @@ syn match idp_discl ':'
 " keywords
 syn match idp_symbol '!'
 syn match idp_symbol '?'
+syn match idp_symbol '&'
+syn match idp_symbol '|'
 syn match idp_symbol "=>"
 syn match idp_symbol "<=>"
 syn match idp_symbol "<-"
@@ -47,6 +49,7 @@ hi def link idp_linecomment Comment
 hi def link idp_key  PreProc
 hi def link idp_small Type
 hi def link idp_symbol Statement
+hi def link idp_discl Statement
 hi def link idp_builtin Identifier
 hi def link idp_function Function
 hi def link idp_number Constant
